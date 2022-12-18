@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textColor="@color/cardview_light_background"
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/black_ops_one"
+        android:gravity="center"
+        android:text="Unit Converter"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <Button
+        android:backgroundTint="@color/cardview_dark_background"
+        android:id="@+id/button5"
+        android:textColor="@color/white"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/allerta_stencil"
+        android:text="TEMPERATURE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:backgroundTint="@color/cardview_dark_background"
+        android:textColor="@color/white"
+        android:id="@+id/button6"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="@font/allerta_stencil"
+        android:text="Length"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:backgroundTint="@color/cardview_dark_background"
+        android:textColor="@color/white"
+        android:fontFamily="@font/allerta_stencil"
+        android:id="@+id/button7"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:text="WEIGHT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <Button
+        android:backgroundTint="@color/cardview_dark_background"
+        android:textColor="@color/white"
+        android:fontFamily="@font/allerta_stencil"
+        android:id="@+id/button8"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="36dp"
+        android:text="Currency"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <Button
+        android:backgroundTint="@color/cardview_dark_background"
+        android:textColor="@color/white"
+        android:fontFamily="@font/allerta_stencil"
+        android:id="@+id/button9"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="60dp"
+        android:text="Time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <Button
+        android:backgroundTint="@color/cardview_dark_background"
+        android:textColor="@color/white"
+        android:fontFamily="@font/allerta_stencil"
+        android:id="@+id/button11"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="35dp"
+        android:text="Speed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/button9"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        app:layout_constraintVertical_bias="0.178" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
